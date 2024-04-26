@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep -wi "дверь" ./data/pushkin.txt | wc -w
+grep -w "дверь" ./data/pushkin.txt | wc -l
