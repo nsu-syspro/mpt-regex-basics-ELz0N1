@@ -1,3 +1,3 @@
 #!/bin/bash
 
-grep -wi "вина" ./data/pushkin.txt | wc -l
+grep -owi "вина" data/pushkin.txt | wc -l
